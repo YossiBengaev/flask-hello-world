@@ -1,0 +1,27 @@
+*******************INSTALL FLASK****************************
+mkdir <new-folder-name>
+cd <new-folder-name>
+py -3 -m venv venvm     	#create virtual environment
+venv\scripts\activate		#activate the vir env
+pip install Flask		#install flask in the vir env
+
+
+*******************RUN FLASK********************************
+flask --app <script-name> run
+
+Also you can do:
+export FLASK_APP= <script-name> (without .py)
+then: 
+flask run
+
+Another thing is:
+export FLASK_DEBUG=1		
+#this for real time changing. if you change the code just do refresh on the website.
+
+to activate the env after exit:
+python3 -m venv venv
+source venv/bin/activate
+
+deactivate (for exit the env)
+
+******************GOOD LUCK!********************************
